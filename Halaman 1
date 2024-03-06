@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="150dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="150dp"
+        android:text="Hello Girls!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLoginToStartUrSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="300dp"
+        android:text="Login To Start Ur Session"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:hint="Username"
+        android:padding="8dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="309dp"
+        android:drawableStart="@drawable/baseline_person_24"
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:drawableStart=""
+        android:hint="Password"
+        android:padding="8dp"
+
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
